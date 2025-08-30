@@ -37,22 +37,6 @@ def number_guessing_game():
   print("Soch liya..")
   print(select)
 
-  if attempt_left==5:
-    while True:
-      a=input("\nHint chahiye..?(ha/na)")
-      if a=="ha":
-        if select<50:
-          print("Number 51 se chota hai..")
-          break
-        else:
-          print("Number 50 se bada Hai..")
-          break
-      elif a=="na":
-        print("okk,Agee badte hai.")
-        break
-      else:
-        print("ha ya na..?")
-
   while attempt_left>0:
     try:
       guess=int(input("\nGuess Batao 1 to 100 :"))
