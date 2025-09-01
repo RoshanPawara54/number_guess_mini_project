@@ -53,8 +53,6 @@ number_guess_mini_project/
 └── README.md # Project documentation
 
 
----
-
 ##  How to Run Locally
 
 1. **Clone the repo**:
